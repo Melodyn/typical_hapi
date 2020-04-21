@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "allowJs": false,
+    "checkJs": false,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "strict": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "node",
+      "hapi",
+      "joi",
+      "uuid",
+      "jest"
+    ]
+  },
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "./node_modules",
+    "./dist",
+    "./__tests__",
+    "./frontend",
+    "./coverage"
+  ]
+}
